@@ -1,6 +1,6 @@
 
 # MonoGame Templates
-This repository is a collection of specialized MoonoGame templates to use with Visual Studio 2017 when creating a new project.  
+This repository is a collection of specialized MonoGame templates to use with Visual Studio 2017 when creating a new project.  
 
 # Included Templates
 |  Template Name | Description   |
