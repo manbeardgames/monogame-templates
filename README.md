@@ -17,6 +17,6 @@ git clone https://github.com/manbeardgames/monogame-templates.git
 ```
 
 2. Locate the template you would like to use within the **\zipped\ directory.
-3. Copy the zipped template you would like to use to `%UserProfile%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\MonoGame` directory.  *Do not unzip it here, just copy over the entier .zip file
+3. Copy the zipped template you would like to use to `%UserProfile%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#\MonoGame` directory.  **Do not unzip it here, just copy over the entier .zip file**
 
 After completing the above steps, when you create a new project in Visual Studio 2017, you should now see that template listed under the MonoGame section.
