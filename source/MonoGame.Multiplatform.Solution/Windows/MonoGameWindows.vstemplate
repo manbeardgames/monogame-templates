@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+    <TemplateData>
+        <Name>$ext_safeprojectname$.Windows</Name>
+        <ProjectType>CSharp</ProjectType>
+        <TargetPlatformName>Windows</TargetPlatformName>
+        <CreateInPlace>true</CreateInPlace>
+        <CreateNewFolder>true</CreateNewFolder>
+        <LocationField>Enabled</LocationField>
+        <Hidden>true</Hidden>
+    </TemplateData>
+    <TemplateContent>
+        <Project TargetFileName="MonoGameWindowsApplication.csproj" File="MonoGameWindowsApplication.csproj" ReplaceParameters="true">
+            <ProjectItem ReplaceParameters="false" TargetFileName="Icon.ico">Icon.ico</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="app.manifest">app.manifest</ProjectItem>
+            <Folder Name="Properties" TargetFolderName="Properties">
+                <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+            </Folder>
+        </Project>
+    </TemplateContent>
+</VSTemplate>
